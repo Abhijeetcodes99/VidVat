@@ -1,0 +1,94 @@
+<!-- <h1>Sign Up!</h1>
+
+<form action="/registerschool" method="post">
+    <input type="text" name="username" placeholder="username">
+    <input type="password" name="password" placeholder="password">
+    <button>Sign Up</button>
+</form> -->
+
+<!DOCTYPE html>
+
+<html>
+<head>
+
+  <title> Sign Up </title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Parisienne&family=Sacramento&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+<link rel = "stylesheet" href = "/stylesheets/login_style.css">
+
+</head>
+
+<body class = "login-container">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light naving">
+        <a class="navbar-brand" href="/"><img src="../images/vidvat.png" class="img-responsive logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/"><b>Home</b></a>
+            </li>
+			   <% if(!currentUser){ %>
+            <li class="nav-item">
+              <a class="nav-link" href="/registerschool"><b>Register</b></a>
+            </li>
+			  <li class="nav-item">
+              <a class="nav-link" href="/loginschool"><b>Login</b></a>
+            </li>
+			   <% } else { %>
+			   <li class="nav-item">
+				   <a class="nav-link" href="#">Signed In As <%= currentUser.username %></a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="/logout"><b>logout</b></a>
+            </li>
+			  <% } %>
+          </ul>
+        </div>
+      </nav>
+
+  <div  class = "register-form-container">
+    <h1 class = "login-heading"> Register: </h1>
+    <hr>
+    <form action="/registerschool" method="post">
+  <div class="form-group">
+    <label for="Username">Username</label>
+    <input type="text" class="form-control" name="username" placeholder = "Username">
+  </div>
+  <div class="form-group">
+    <label for="password">Password</label>
+    <input type="password" class="form-control" name="password" placeholder = "Password">
+  </div>
+  <div class="form-group">
+    <label for="emailid">EmailId</label>
+    <input type="text" class="form-control" name="emailid" placeholder = "Email Id">
+  </div>
+<button type="submit" class="btn btn-lg login-button" style = "margin: 3%;">Register</button>
+  </form>
+      
+
+      <p class = "forgot-password">
+        Forgot Password? <a href ="#"> Click here </a>
+      </p>
+
+</div>
+
+
+
+
+
+
+</body>
+
+
+</html>

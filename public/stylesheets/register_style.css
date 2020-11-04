@@ -1,0 +1,123 @@
+body{
+    background-image: url('/images/unicef-pic1edited.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  
+  }
+  /*Navbar*/
+
+  .container{
+    text-align:center;
+  }
+  .nav-item{
+    padding: 2.5px;
+    font-family: 'Chilanka', cursive;
+    font-size: 24px;
+  
+  }
+  
+  .logo{
+    height: 60px;
+    padding-right:15px;
+    padding-left: 0px;
+    border-radius: 13%;
+  }
+  /*.naving{
+    height: 5rem;
+    padding-top: 5px;
+  
+  }*/
+  
+  
+  .frontline-image{
+    height: auto;
+    width: 100%;
+    min-height: 650px;
+    opacity: 0.98;
+  
+  
+  }
+  /*end of navbar*/
+  
+  
+  .input-form-container{
+    text-align: center;
+    width: 53%;
+    height: 63.6rem;
+    margin: 20% auto;
+    background-color:  white;
+    border-radius: 5%;
+    opacity: 0.92;
+  }
+  @media(min-width: 895px){
+    .input-form-container{
+      text-align: center;
+      width: 45%;
+      height: 64.5rem;
+      margin: 15% auto;
+      background-color: white ;
+      border-radius: 5%;
+    }
+  
+  }
+  @media(min-width: 1200px){
+    .input-form-container{
+      text-align: center;
+      width: 35%;
+      height: 64.5rem;
+      margin: 10% auto;
+      background-color: white ;
+      border-radius: 5%;
+    }
+  }
+    @media(min-width: 1520px){
+      .input-form-container{
+        text-align: center;
+        width: 35%;
+        height: 66.6rem;
+        margin: 10% auto;
+        background-color: white;
+        border-radius: 5%;
+      }
+  
+  
+  }
+  
+  
+  .form-group{
+    font-family: 'Assistant', sans-serif;
+    font-size: 21px;
+    width: 100%;
+    padding: 1%;
+  }
+  .input-field{
+    width: 80%;
+  }
+  
+  
+  
+  .login-heading{
+      font-family: 'Chilanka', cursive;
+      font-weight: bold;
+      padding: 4% 0 0 0;
+      margin: 0;
+  }
+  
+  .login-button{
+    font-family: 'Chilanka', cursive;
+    color:   #001a1a;
+    background-color:  #00994d;
+    margin: 3%;
+  }
+  .login-button:hover{
+    font-family: 'Chilanka', cursive;
+    color:   #001a1a;
+    background-color:  #00cc66 ;
+    margin: 3%;
+  }
+  .forgot-password{
+    font-size: 1.1rem;
+  
+  }

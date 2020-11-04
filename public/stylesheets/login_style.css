@@ -1,0 +1,162 @@
+body{
+  background-image: url('/images/unicef-pic1edited.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+
+}
+
+/* .navbar{
+  position: ;
+
+} */
+
+.container{
+  text-align:center;
+}
+.nav-item{
+  padding: 2.5px;
+  font-family: 'Chilanka', cursive;
+  font-size: 24px;
+
+}
+
+.logo{
+  height: 60px;
+  padding-right:15px;
+  padding-left: 0px;
+  border-radius: 13%;
+}
+/*.naving{
+  height: 5rem;
+  padding-top: 5px;
+
+}*/
+
+
+.frontline-image{
+  height: auto;
+  width: 100%;
+  min-height: 650px;
+  opacity: 0.98;
+
+
+}
+
+
+.login-form-container{
+  text-align: center;
+  width: 50%;
+  height: 30rem;
+  margin: 20% auto;
+  background-color:  white;
+  border-radius: 5%;
+  opacity: 0.92;
+}
+.register-form-container{
+  text-align: center;
+  width: 50%;
+  height: 35rem;
+  margin: 20% auto;
+  background-color:  white;
+  border-radius: 5%;
+  opacity: 0.92;
+}
+@media(min-width: 895px){
+  .login-form-container{
+    text-align: center;
+    width: 40%;
+    height: 31rem;
+    margin: 15% auto;
+    background-color: white;
+    border-radius: 5%;
+  }
+  .register-form-container{
+    text-align: center;
+    width: 40%;
+    height: 36rem;
+    margin: 15% auto;
+    background-color: white;
+    border-radius: 5%;
+  }
+}
+@media(min-width: 1200px){
+  .login-form-container{
+    text-align: center;
+    width: 30%;
+    height: 32rem;
+    margin: 10% auto;
+    background-color: white;
+    border-radius: 5%;
+  }
+  .register-form-container{
+    text-align: center;
+    width: 30%;
+    height: 38rem;
+    margin: 10% auto;
+    background-color: white;
+    border-radius: 5%;
+  }
+}
+  @media(min-width: 1520px){
+    .login-form-container{
+      text-align: center;
+      width: 30%;
+      height: 34rem;
+      margin: 10% auto;
+      background-color: white;
+      border-radius: 5%;
+    }
+
+    .register-form-container{
+      text-align: center;
+      width: 30%;
+      height: 38rem;
+      margin: 10% auto;
+      background-color: white;
+      border-radius: 5%;
+    }
+
+}
+
+form{
+  padding: 5%;
+}
+
+.form-group{
+  font-family: 'Assistant', sans-serif;
+  font-size: 21px;
+  width: 100%;
+  padding: 1%;
+}
+
+.form-group{
+  font-family: 'Assistant', sans-serif;
+  font-size: 21px;
+  width: 100%;
+  padding: 1%;
+
+}
+
+.login-heading{
+    font-family: 'Chilanka', cursive;
+    font-weight: bold;
+    padding: 4% 0 0 0;
+    margin: 0;
+}
+
+.login-button{
+  font-family: 'Chilanka', cursive;
+  color:   #001a1a;
+  background-color:  #00994d;
+}
+.login-button:hover{
+  font-family: 'Chilanka', cursive;
+  color:   #001a1a;
+  background-color:  #00cc66 ;
+}
+.forgot-password{
+  font-size: 1.1rem;
+
+}

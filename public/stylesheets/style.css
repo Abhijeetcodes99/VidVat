@@ -1,0 +1,338 @@
+/* Title and Navbar*/
+body {
+  background-color: #e6e6e6;
+}
+.btn-success {
+  margin-left: 5px;
+}
+
+.row-a {
+  margin: auto;
+}
+.row {
+  /* margin-bottom: 30px;
+  height: 100%; */
+  /* padding: 15px 15px 15px 15px; */
+}
+/* 
+.column-2 {
+  padding: 80px 15px 15px 15px;
+  background-color: white;
+} */
+/* .navbar{
+  position: ;
+
+} */
+
+.container {
+  text-align: center;
+}
+.nav-item {
+  padding: 2.5px;
+  font-family: "Chilanka", cursive;
+  font-size: 24px;
+}
+
+.logo {
+  height: 60px;
+  padding-right: 15px;
+  padding-left: 0px;
+  border-radius: 13%;
+}
+/*.naving{
+  height: 5rem;
+  padding-top: 5px;
+
+}*/
+
+.frontline-image {
+  height: auto;
+  width: 100%;
+  min-height: 650px;
+  opacity: 0.98;
+}
+
+/*Carousel*/
+.add_btn {
+  position: inherit;
+  z-index: 1;
+  top: 26%;
+  left: 45%;
+  font-family: "Chilanka", cursive;
+  opacity: 0.88;
+  color: #001a1a;
+  background-color: #00994d;
+  padding: 10px;
+}
+
+.add_btn:hover {
+  position: inherit;
+  z-index: 1;
+  top: 26%;
+  left: 45%;
+  font-family: "Chilanka", cursive;
+  opacity: 0.88;
+  color: #001a1a;
+  background-color: #1aff8c;
+}
+
+.btn.force {
+  position: absolute;
+  z-index: 1;
+  top: 26%;
+  left: 45%;
+  font-family: "Chilanka", cursive;
+  opacity: 0.88;
+  color: #001a1a;
+  background-color: #00994d;
+  padding: 10px;
+}
+
+.btn.force:hover {
+  position: absolute;
+  z-index: 1;
+  top: 26%;
+  left: 45%;
+  font-family: "Chilanka", cursive;
+  opacity: 0.88;
+  color: #001a1a;
+  background-color: #1aff8c;
+}
+
+@media (max-width: 1015px) {
+  .add_btn {
+    position: inherit;
+    z-index: 1;
+    top: 38%;
+    left: 45%;
+    font-family: "Chilanka", cursive;
+    opacity: 0.9;
+    color: #001a1a;
+    background-color: #00994d;
+  }
+  .add_btn:hover {
+    position: inherit;
+    z-index: 1;
+    top: 38%;
+    left: 45%;
+    font-family: "Chilanka", cursive;
+    opacity: 0.9;
+    color: #001a1a;
+    background-color: #1aff8c;
+  }
+  .btn.force {
+    position: absolute;
+    z-index: 1;
+    top: 38%;
+    left: 45%;
+    font-family: "Chilanka", cursive;
+    opacity: 0.88;
+    color: #001a1a;
+    background-color: #00994d;
+    padding: 10px;
+  }
+
+  .btn.force:hover {
+    position: absolute;
+    z-index: 1;
+    top: 38%;
+    left: 45%;
+    font-family: "Chilanka", cursive;
+    opacity: 0.88;
+    color: #001a1a;
+    background-color: #1aff8c;
+  }
+}
+
+.title-para {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  font-family: "Assistant", sans-serif;
+  font-size: 4.5rem;
+  color: #bfbfbf;
+  line-height: 1;
+  top: 13%;
+}
+
+.thumbnail {
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.thumbnail img {
+  transition: 1s all ease-in-out;
+  height: 100%;
+  width: 100%;
+}
+
+.thumbnail:hover img {
+  transform: scale(1.5);
+}
+
+@media (max-width: 1250) {
+  .title-para {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    font-family: "Assistant", sans-serif;
+    font-size: 6rem;
+    color: #862d59;
+    line-height: 1;
+    top: 13%;
+    opacity: 0.8;
+  }
+}
+/*About us section */
+
+#about-us {
+  width: 100%;
+  height: auto;
+}
+
+.about-us-text {
+  margin: 2%;
+  margin-top: 8%;
+  padding: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+hr.about-us-seperator {
+  border-top: 2px dotted black;
+}
+.about-heading {
+  font-family: "Chilanka", cursive;
+  text-align: center;
+  color: black;
+  text-shadow: 2px 2px 4px #000000;
+  font-weight: bold;
+}
+.about-para {
+  font-family: "Assistant", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 2.8% 0%;
+}
+
+/*Team membe#rs*/
+#team {
+  width: 100%;
+  height: auto;
+  padding: 1%;
+  margin: 2%;
+  margin-top: 4%;
+}
+.team-heading {
+  font-family: "Chilanka", cursive;
+  text-align: center;
+  font-weight: bold;
+}
+.team-image-col {
+  padding: 2%;
+  padding-top: 1.5%;
+}
+
+.team-image {
+  display: block;
+  margin: auto;
+  width: 50%;
+  height: auto;
+  border-radius: 48%;
+}
+.team-data {
+  text-align: center;
+  font-family: "Assistant", sans-serif;
+  font-size: 20px;
+  padding: 3%;
+}
+
+.team-icon {
+  font-size: 1.55em;
+}
+.text-block-5 {
+  padding: 10px;
+}
+
+.footer-container {
+  background-image: url("../images/unicef-pic6edited.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+.footer-title {
+  font-family: "Permanent Marker", cursive;
+  margin: auto;
+  text-align: center;
+  padding: 2%;
+  color: #e6e6e6;
+}
+
+.footer-icon {
+  font-size: 1.2em;
+  color: #d9d9d9;
+  padding: 2%;
+}
+.footer-icon:hover {
+  font-size: 1.2em;
+  color: white;
+  padding: 2%;
+}
+.footer-link {
+  text-align: center;
+}
+.footer-left {
+  color: #e6e6e6;
+  font-family: "Assistant", sans-serif;
+  margin-left: 1%;
+  font-size: 1.2rem;
+}
+
+.footer-right {
+  color: #e6e6e6;
+  font-family: "Assistant", sans-serif;
+  text-align: right;
+  margin-right: 1%;
+}
+.footer-right-link {
+  color: #e6e6e6;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.footer-right-link:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/*Centering the search bar*/
+.form-group {
+  margin: auto;
+}
+
+/*Ritu Raj's latest addition via email*/
+@media screen and (max-width: 1199px) {
+  .thumbnail {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
+  /* .thumbnail img {
+    height: 300px;
+    width: 46rem !important;
+    transition: 1s all ease-in-out;
+  }
+  .w-col {
+    display: inline-block;
+    width: 100%;
+    left: auto;
+    right: auto;
+  } */
+}

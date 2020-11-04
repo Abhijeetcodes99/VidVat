@@ -1,0 +1,86 @@
+/*School card*/
+.school-details-row{
+    margin: 2%;
+  }
+  
+  .school-name{
+    text-align: center;
+  }
+  
+  .school-column{
+    padding: 2%;
+  
+  }
+  
+  .more-details-text{
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.35rem;
+  }
+  .school-details-image{
+    width: 95%;
+    height: auto;
+    margin: auto;
+    padding: 2%;
+    border-radius: 4%;
+  
+  }
+  
+  .school-details-card{
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.3rem;
+    border-radius: 2%;
+  }
+ 
+ .button-apply{
+  width: 100px;
+  font-family: 'Chilanka', cursive;
+  opacity: 0.88;
+  color: white;
+  background-color:  #00994d;
+  padding: 10px;
+  margin: 10px;
+ }
+ .button-right{
+  width: 100px;
+  font-family: 'Chilanka', cursive;
+  opacity: 0.88;
+  color: white;
+  background-color:  #00994d;
+  padding: 10px;
+  margin: 10px;
+  float: right;
+
+ }
+
+ /*Navbar*/
+ .container{
+	text-align:center;
+}
+.nav-item{
+  padding: 2.5px;
+  font-family: 'Chilanka', cursive;
+  font-size: 24px;
+
+}
+
+.logo{
+  height: 60px;
+  padding-right:15px;
+  padding-left: 0px;
+  border-radius: 13%;
+}
+/*.naving{
+  height: 5rem;
+  padding-top: 5px;
+
+}*/
+
+
+.frontline-image{
+  height: auto;
+  width: 100%;
+  min-height: 650px;
+  opacity: 0.98;
+
+
+}

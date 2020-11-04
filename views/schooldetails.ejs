@@ -1,0 +1,47 @@
+<%- include("./partials/header") %>
+ <div class="container">
+     <header class="jumbotron">
+         <div class="container">
+             <h1>Welcome To Schools</h1>
+             <p>Teach Them</p>
+             <p>
+                <a class="btn btn-primary btn-large add_btn" href="/schooldetails/new">Add New schools</a>
+             </p>
+          
+                <form action="/schooldetails" method="GET" class="form-inline" id="campground-search">
+                  <div class="form-group">
+                    <input type="text" name="search" placeholder="School search..." class="form-control">
+                    <input type="submit" value="Search" class="btn btn-success" margin-left="5px">
+                
+                  </div>
+                </form>
+              
+         </div>
+     </header>
+    
+ 
+   
+        <% schools.forEach(function(schools){ %>
+    <div class="card mb-3">
+      <div class="row no-gutters" >
+        <div class="col-md-4 thumbnail" >
+          <img src="<%= schools.image %>"  >
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h4><%= schools.name %></h4>
+           <p><%= schools.briefInfo %></p>
+            
+            <a href="/schooldetails/<%=schools._id%>"><button type="button" class="btn btn-outline-success"> MORE
+                INFO</button></a>
+          </div>
+        </div>
+      </div>
+  
+            </div>
+        <% }); %>
+       
+        
+    </div> 
+
+<%- include("./partials/footer") %>
